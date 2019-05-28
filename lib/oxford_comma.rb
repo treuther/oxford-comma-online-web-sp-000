@@ -4,6 +4,6 @@ if array.length == 1
 elsif array.length == 2
   "#{array[0]} and #{array.last}"
 else
-  array.join(", ") + "and " array.last
+
 end
 end

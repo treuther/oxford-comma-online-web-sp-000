@@ -1,7 +1,7 @@
 def oxford_comma(array)
-if array.length == 2
-  array.join + "and " array[-1]
+if array.length == 1
+  result = array[0]
 else
-  array.join(", ") + "and " array[-1]
+  result = "#{array[0, array.length].join(", ")} and #{array.last}"
 end
 end
